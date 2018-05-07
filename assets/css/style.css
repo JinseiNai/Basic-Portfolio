@@ -92,6 +92,8 @@ form {
     padding-top: 30px;
 }
 
+[type="submit"] { cursor: pointer;}
+
 [type="submit"] {
     background-color: #4aaaa5;
     color: white;
@@ -99,6 +101,12 @@ form {
     padding: 5px 20px;
     margin-top: 20px;
     margin-bottom: 25px;
+}
+
+[type="submit"]:hover {
+    border: 1px solid black;
+    padding: 4px 19px;
+    opacity: 1.5;
 }
 
 .btn {
