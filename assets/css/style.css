@@ -47,8 +47,6 @@ footer {
     color: #fff;
     text-align: center;
     font-size: .7em;
-    position: absolute;
-    bottom: 0;
 }
 
 form {
@@ -65,11 +63,6 @@ form {
 ::placeholder {
     opacity: .3;
     padding-left: 5px;
-}
-
-.container {
-    min-height: 100%;
-    position: relative;
 }
 
 .name-bg {
@@ -125,14 +118,20 @@ a:visited {
     color: #777777;
 }
 
+.wrapper {
+    min-height: calc(100vh - 200px);
+}
+
 .main-content {
-    height: auto;
     background-color: #fff;
     width: 960px;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 30px auto;
     border: 1px solid #dddddd;
+}
+
+.project-area {
+    display: flex;
+    flex-direction: column;
 }
 
 .profile-pic {
@@ -142,12 +141,16 @@ a:visited {
     margin: 20px 30px;
 }
 
+.projects {
+    width: 200px;
+    height: 200px;
+    margin: 20px 30px;
+}
+
 .foot-bar {
     height: 5px;
     background-color: #4aaaa5;
     width: 100%;
-    position: absolute;
-    bottom: 50px;
 }
 
 .copyright {
