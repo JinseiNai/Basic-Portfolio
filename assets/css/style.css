@@ -34,10 +34,11 @@ hr {
 }
 
 section {
-    margin-top: 20px;
+    margin-top: 10px;
     line-height: 2em;
     margin-left: 30px;
     margin-right: 30px;
+    flex-wrap: wrap;
 }
 
 footer {
@@ -153,7 +154,7 @@ a:visited {
     width: 200px;
     height: 200px;
     float: left;
-    margin: 20px 30px;
+    margin: 20px 30px 0 30px;
 }
 
 .projects,
