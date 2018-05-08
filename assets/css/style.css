@@ -115,9 +115,16 @@ form {
     display: inline-block;
 }
 
+.btn:hover {
+    font-weight: bolder;
+    font-size: 1em;
+    padding-left: 10px;
+}
+
 .portfolio,
 .contact {
-    border-left: 1px solid rgba(119, 119, 119, .1);
+    border-left: 2px solid rgba(119, 119, 119, .1);
+    padding-left: 10px;
 }
 
 a:link,
@@ -147,6 +154,10 @@ a:visited {
 
 .project-name {
     position: relative;
+}
+
+.project-name:hover {
+    opacity: .8;
 }
 
 .text-block {
