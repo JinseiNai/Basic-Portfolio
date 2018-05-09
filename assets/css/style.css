@@ -12,6 +12,11 @@ body {
     background-image: url(../images/hypnotize.png);
 }
 
+html,
+body:hover {
+    cursor: default;
+}
+
 h1,
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
